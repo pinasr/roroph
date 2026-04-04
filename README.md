@@ -6,11 +6,11 @@ to serve as a structural layer for spatial data science, regional science, and t
 
 Unlike traditional distance-based spatial models, `roroph` treats the Philippine archipelago as a living network. It provides the necessary edge-list and node-attribute data to move beyond simple Euclidean distance ($d$) and into Frictional Connectivity, accounting for:
 
-*Node Adjacency:* Directed links between 45 coastal provinces.
+**Node Adjacency:** Directed links between 45 coastal provinces.
 
-*Temporal Friction:* Average travel time in hours ($T$) across the sea-gap.
+**Temporal Friction:** Average travel time in hours ($T$) across the sea-gap.
 
-*Flow Capacity:* Daily frequency ($f$), passenger capacity, and cargo volume.
+**Flow Capacity:** Daily frequency ($f$), passenger capacity, and cargo volume.
 
 ## Installation
 For the development version:
