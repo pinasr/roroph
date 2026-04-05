@@ -1,0 +1,45 @@
+Package: roroph
+Title: The Philippine Nautical Highway: Roll-on/Roll-Off (RoRo) Connectivity and Transport Data
+Version: 0.1.0
+Authors@R: 
+    person("NJ", "Talingting", 
+           email = "ninotalingting77@gmail.com", 
+           role = c("aut", "cre"), 
+           comment = c(ORCID = "0009-0003-7245-874X"))
+Description: Provides the first standardized, machine-readable dataset of the 
+    Philippines' Roll-on/Roll-off (RoRo) shipping network, the backbone of 
+    the archipelagic nation's inter-island logistics. It digitizes fragmented 
+    records from the Maritime Industry Authority (MARINA) and Philippine 
+    Ports Authority (PPA) into a unified framework for transport modeling 
+    and spatial analysis. The package includes 108 bidirectional provincial 
+    links across the Western, Central, and Eastern Nautical Highways, 
+    complete with Global Administrative Areas (GADM) standardized naming, 
+    geospatial coordinates, and critical transport metrics such as distance 
+    (nautical miles), average travel time, vessel frequency, and passenger/cargo 
+    capacities. This tool is designed to support high-fidelity research in 
+    economic geography, supply chain resilience, and disaster-response 
+    logistics within the Philippine context.
+License: MIT + file LICENSE
+URL: https://github.com/njtalingting/roroph
+BugReports: https://github.com/njtalingting/roroph/issues
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    ArchipelagoEngine,
+    dplyr,
+    ggplot2,
+    sf,
+    spdep
+Suggests: 
+    knitr,
+    rmarkdown,
+    rnaturalearth,
+    rnaturalearthdata,
+    ggrepel,
+    ggspatial
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Language: en-PH
