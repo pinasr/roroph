@@ -17,7 +17,7 @@ Unlike traditional distance-based spatial models, `roroph` sees the Philippine a
 **Mapping the Core Philippine Maritime Network:** We can visualize the RoRo links as segments connecting provincial capitals. We can color-code them by their MARINA Highway classification (Western, Central, Eastern, or Missionary) through which the strength of connection is determined by daily frequency travel.
 
 <p align="center">
-  <img src="man/figures/roromap.png" width="40%">
+  <img src="man/figures/roromap.png" width="80%">
   <br>
   <i><b>Figure 1:</b> Spatial Connectivity and Daily Frequency of the Philippine RoRo Maritime Network</i>
 </p>
@@ -25,7 +25,7 @@ Unlike traditional distance-based spatial models, `roroph` sees the Philippine a
 **Statistical Analysis** Beyond visualization, we can use `roroph` for statistical analyses as it provides necessary variables such as distance, travel time,  and vessel frequency within the 2024-2026 operations. For instance, we could analyze the relationship between distance and vessel capacity among the three major island groups in the Philippines.
 
 <p align="center">
-  <img src="man/figures/analysis.png" width="40%">
+  <img src="man/figures/analysis.png" width="80%">
   <br>
   <i><b>Figure 1:</b> The relationship between distance and vessel capacity in the Philippines' major island groups.</i>
 </p>
