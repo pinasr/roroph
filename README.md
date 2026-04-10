@@ -43,6 +43,7 @@ install.packages("roroph")
 ````
 library(roroph)
 library(dplyr)
+library(sf)
 
 # Load the network data
 data(roro_routes)
@@ -59,8 +60,8 @@ wnh_hubs <- roro_routes[roro_routes$highway_type == "Western", ]
 
 # Simple validation check of coordinates for spatial weight construction
 if (requireNamespace("sf", quietly = TRUE)) {
-  library(sf)
-  # Check if coordinates are within the Philippine bounding box
+
+# Check if coordinates are within the Philippine bounding box
   bbox_check <- all(wnh_hubs$from_lat > 4 & wnh_hubs$from_lat < 21)
   message("Coordinate validity: ", bbox_check)
 }
