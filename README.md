@@ -1,4 +1,4 @@
-<img src="man/figures/hexsticker_for_roroph.png" align="right" height="200" />
+<img src="man/figures/logo.png" align="right" height="139" />
 
 # roroph: Roll-on/Roll-Off (RoRo) Connectivity and Transport Data
 
