@@ -1,5 +1,5 @@
 Package: roroph
-Title: The Philippine Nautical Highway: Roll-on/Roll-Off (RoRo) Connectivity and Transport Data
+Title: Philippine Roll-on/Roll-Off (RoRo) Connectivity and Transport Data
 Version: 0.1.0
 Authors@R: 
     person("NJ", "Talingting", 
@@ -43,3 +43,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
 Language: en-PH
+X-schema.org-keywords: philippines, roro, maritime-transport, logistics, supply-chain, nautical-highway, archipelago, spatial-data, disaster-resilience, transport-economics
