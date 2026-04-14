@@ -5,19 +5,19 @@
 ## Overview
 The `roroph` package provides a standardized, machine-readable geospatial dataset of the primary and missionary routes comprising the Philippine Nautical Highway System. This includes 108 bidirectional provincial links across the Western, Central, and  Eastern Nautical Highways, complete with GADM-standardized naming,  geospatial coordinates, and metrics such as distance, travel time,  and vessel frequency within the 2024-2026 operations.
 
-Unlike traditional distance-based spatial models, `roroph` sees the Philippine archipelago through Network Topology. The package provides the necessary edge-list and node-attribute data to move beyond simple Euclidean distance ($d$) and into Frictional Connectivity, accounting for:
+Unlike traditional distance-based spatial models, `roroph` sees the Philippine archipelago through Network Topology. The package provides the necessary edge-list and node-attribute data to move beyond simple Euclidean distance (d) and into Frictional Connectivity, accounting for:
 
 **Node Adjacency:** Directed links between 40+ coastal provinces.
 
-**Temporal Friction:** Average travel time in hours ($T$) across the sea-gap.
+**Temporal Friction:** Average travel time in hours (T) across the sea-gap.
 
-**Flow Capacity:** Daily frequency ($f$), passenger capacity, and cargo volume.
+**Flow Capacity:** Daily frequency (f), passenger capacity, and cargo volume.
 
 ## Key Features
 **Mapping the Core Philippine Maritime Network:** We can visualize the RoRo links as segments connecting provincial capitals. We can color-code them by their MARINA Highway classification (Western, Central, Eastern, or Missionary) through which the strength of connection is determined by daily frequency travel.
 
 <p align="center">
-  <img src="man/figures/roromap.png" width="80%">
+  <img src="man/figures/phroro.png" width="80%">
   <br>
   <i><b>Figure 1:</b> Spatial Connectivity and Daily Frequency of the Philippine RoRo Maritime Network</i>
 </p>
@@ -30,9 +30,9 @@ Unlike traditional distance-based spatial models, `roroph` sees the Philippine a
   <i><b>Figure 2:</b> The relationship between distance and vessel capacity in the Philippines' major island groups.</i>
 </p>
 
-**Construction of the Frequency-Based Weights ($W$):** `roroph` provides the raw infrastructure (the Edges) and the native functions to construct Frequency-Weighted Matrices ($W$). In an archipelagic context, Euclidean distance ($d_{ij}$) becomes a limitation as it ignores the physical constraints of the ocean that moves the Philippine economy. By defining the "nearness" of two provinces by the bandwidth of their maritime connection ($f$), `roroph` enables researchers to capture the spatial signal found in national price transmission.
+**Construction of the Frequency-Based Weights ($W$):** `roroph` provides the raw infrastructure (the Edges) and the native functions to construct Frequency-Weighted Matrices (W). In an archipelagic context, Euclidean distance becomes a limitation as it ignores the physical constraints of the ocean that moves the Philippine economy. By defining the "nearness" of two provinces by the bandwidth of their maritime connection, `roroph` enables researchers to capture the spatial signal found in national price transmission.
 
-While `roroph` defines the Spatial Weights ($W$), it is designed to be the primary data-input for the `ArchipelagoEngine` (v0.1.2) package. The engine utilizes these maritime weights to perform Maximum Likelihood Estimation, correcting for the residual spatial bias ($p < 0.05$) often found in terminal nodes and land-border clusters.
+While `roroph` defines the Spatial Weights, it is designed to be the primary data-input for the `ArchipelagoEngine` (v0.1.2) package. The engine utilizes these maritime weights to perform Maximum Likelihood Estimation, correcting for the residual spatial bias (p < 0.05) often found in terminal nodes and land-border clusters.
 
 ## Installation
 For v0.1.1:
