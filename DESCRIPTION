@@ -27,12 +27,15 @@ BugReports: https://github.com/njtalingting/roroph/issues
 Depends: 
     R (>= 3.5.0)
 Imports: 
+    Imports: 
     ArchipelagoEngine,
     dplyr,
     ggplot2,
     sf,
+    spdep,
     vctrs,
-    spdep
+    rlang,
+    magrittr
 Suggests: 
     knitr, 
     rmarkdown, 
