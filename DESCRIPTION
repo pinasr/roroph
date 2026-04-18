@@ -22,7 +22,7 @@ Description: Provides the first standardized dataset of the Philippines'
     support research in economic geography and disaster-response 
     logistics.
 License: MIT + file LICENSE
-URL: https://github.com/pinasr/roroph, https://njtalingting.r-universe.dev/roroph
+URL: https://github.com/pinasr/roroph, https://pinasr.r-universe.dev/roroph
 BugReports: https://github.com/pinasr/roroph/issues
 Depends: 
     R (>= 3.5.0)
