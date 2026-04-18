@@ -7,7 +7,7 @@
 
 > *Maintainer's Note: `roroph` v0.1.1 only covers the 2024-2026 operational data from MARINA and PPA. However, the maintainer is active in updating the dataset. If you know newly-established inter-island RoRos not included in this version, or have stopped operating, please submit an issue [here.](https://github.com/njtalingting/roroph/issues)* 
 
-## Overview
+## Overview 
 The `roroph` package provides a standardized, machine-readable geospatial dataset of the primary and missionary routes comprising the Philippine Nautical Highway System. This includes 108 bidirectional provincial links across the Western, Central, and  Eastern Nautical Highways, complete with GADM-standardized naming,  geospatial coordinates, and metrics such as distance, travel time,  and vessel frequency within the 2024-2026 operations.
 
 Unlike traditional distance-based spatial models, `roroph` sees the Philippine archipelago through Network Topology. The package provides the necessary edge-list and node-attribute data to move beyond simple Euclidean distance (d) and into Frictional Connectivity, accounting for:
